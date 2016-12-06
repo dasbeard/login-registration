@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login - Registration</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1>Register</h1>
+        <form class="register" action="/register" method="post">
+          <fieldset>
+            <label>First Name: </label> <input type="text" name="first_name">
+            <label>Last Name: </label> <input type="text" name="last_name">
+            <label>Email: </label> <input type="text" name="email">
+            <label>Password: </label> <input type="text" name="password">
+            <label>Confirm Password</label> <input type="text" name="passconf">
+
+          </fieldset>
+        </form>
+
+
+      </div> <!-- End Registration -->
+      <div class="right">
+
+
+
+      </div> <!-- End Loogin -->
+
+
+
+    </div> <!-- End Container -->
+  </body>
+</html>
